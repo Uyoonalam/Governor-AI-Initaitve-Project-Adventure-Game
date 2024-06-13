@@ -1,0 +1,51 @@
+Player HP = 100
+attack damage = 5-12
+healing = 7-14
+block = 50%-80%
+surrender = quit
+
+boss 1 stats{
+    HP = 100
+    attack = 5-10
+    ability (healing) = 4-8 (1/3 chance)
+}
+
+
+
+# implemented in future
+# boss 2 stats{
+#     HP = 120
+#     attack = 6-12
+#     ability (double attack) =(1/3 chance)
+# } 
+# boss 3 stats{
+#     HP = 100/4
+#     attack = 2-5 * 4
+#     ability = none 
+#     "The boss is split into four different parts."
+# }
+# boss 4 stats{
+#     HP = 100
+#     attack = 5-10
+#     healing = attack - 40%
+#     ability (life steal) = "when the boss attacks it heals aswell"
+# }
+# (final) boss 5 stats{
+#     HP = 150
+#     attack = 10-12
+#     ability (reflect) = playerAttack - 50% (1/2 chance) "when the player attacks the boss might reflect 50% back"
+# }
+
+# you need to beat two bosses before fighting the final boss
+# once you beat the final boss you win.
+
+# beating each boss gives you 15 coins that helps to upgrade your stats
+# upgrades:
+# {
+# HP boost = HP increases to 125 from 100(10 coins)
+# attack boost = attack increases to 7-15 from 5 to 12(20 coins)
+# life steal boost = You gain 25% of healing when you attack.(30 coins)
+# }
+
+# if you want to you can fight all bosses to unlock all upgrades
+# have fun

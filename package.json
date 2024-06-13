@@ -1,0 +1,27 @@
+{
+  "name": "mystical-adventure-by-uyoon-alam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Uyoon Alam",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.3",
+    "@types/figlet": "^1.5.8",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.2"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.23"
+  }
+}
